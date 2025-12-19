@@ -2,7 +2,7 @@
 
 ```java
     String symbol = "BNBUSDT";
-    try {
+    try {1000}{
         ApiResponse<AccountCommissionResponse> response = getApi().accountCommission(symbol);
         System.out.println(response.getData());
     } catch (ApiException exception) {
